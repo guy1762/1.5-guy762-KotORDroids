@@ -30,7 +30,7 @@
 	<AlienRace.ThingDef_AlienRace Name="guy762_DroidRace_ADMkIV" ParentName="guy762_KotORDroidBase">
 		<defName>guy762_DroidRace_ADMkIV</defName>
 		<label>Assault Droid Mark IV</label>
-		<description>Designed by the Jedi Revan and produced by Czerka Arms during the Mandalorian Wars, the Mark IV assault droid is a potent killing machine. Equipped with installation mounts for heavy-duty armor, shielding, and ordnance, the Mk. IV drastically reduces the need for manned assault vehicles on the battlefield, offering instead a force of substantially more agile - and expendable - autonomous drones.\n\nThis droid is capable of the following work types:\n\n-Combat</description>
+		<description>Designed by the Jedi Revan and produced by Czerka Arms during the Mandalorian Wars, the Mark IV assault droid is a potent killing machine. Equipped with installation mounts for heavy-duty armor, shielding, and ordnance, the Mk. IV drastically reduces the need for manned assault vehicles on the battlefield, offering instead a force of substantially more agile - and expendable - autonomous drones.\n\nBy default, this droid is capable of the following work types:\n\n-Combat</description>
 		<alienRace>
 			<graphicPaths>
                 <body>
@@ -250,6 +250,8 @@
 					<li>Construction</li>
 					<li>Warden</li>
 					<li MayRequire="Orion.Hospitality">Diplomat</li>
+					<li MayRequire="Adamas.Storefront">Storefront_Selling</li>
+					<li MayRequire="Orion.Gastronomy">Gastronomy_Waiting</li>
 					<li>Research</li>
 				</forbiddenWorkTypes>
             </li>
@@ -311,7 +313,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="guy762_DroidRace_ADMkIV">
 		<defName>guy762_DroidRace_ADMkIV_sith</defName>
 		<label>Assault Droid Mk.IV Type B</label>
-		<description>Considered one of the most dangerous war droids in the galaxy, Czerka's Mk.IV-B Assault Droid was developed exclusively for the Sith war effort during the Jedi Civil War, and has armament capabilities rivaling some light tanks. At the war's height, the Star Forge churned out thousands of these units per day, and their deployment on the battlefield was a sure sign of doom for Republic infantry.\n\nThis droid is capable of the following work types:\n\n-Combat</description>
+		<description>Considered one of the most dangerous war droids in the galaxy, Czerka's Mk.IV-B Assault Droid was developed exclusively for the Sith war effort during the Jedi Civil War, and has armament capabilities rivaling some light tanks. At the war's height, the Star Forge churned out thousands of these units per day, and their deployment on the battlefield was a sure sign of doom for Republic infantry.\n\nBy default, this droid is capable of the following work types:\n\n-Combat</description>
 		<alienRace>
             <raceRestriction>
 				<apparelList  Inherit="False">
@@ -475,6 +477,8 @@
 					<li>Construction</li>
 					<li>Warden</li>
 					<li MayRequire="Orion.Hospitality">Diplomat</li>
+					<li MayRequire="Adamas.Storefront">Storefront_Selling</li>
+					<li MayRequire="Orion.Gastronomy">Gastronomy_Waiting</li>
 					<li>Research</li>
 				</forbiddenWorkTypes>
             </li>

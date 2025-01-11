@@ -64,7 +64,7 @@
 	<AlienRace.ThingDef_AlienRace Name="guy762_DroidRace_DevWD" ParentName="guy762_KotORDroidBase">
 		<defName>guy762_DroidRace_DevWD</defName>
 		<label>Devastator-class war droid</label>
-		<description>Originally designed by Ubrikkian Steamworks as a competitor to the Kellenech Sentinel droid, the original Devastator prototype was recieved with little interest from the Republic military, deemed too complicated for widespread field use and too dangerous for the private market. This significantly stripped-down production model was eventually approved for sale, and found many buyers in Outer Rim militias and private security forces as a cheap battle droid, but few of the original prototypes remain.\n\nThis droid is capable of the following work types:\n\n-Combat\n-Hauling\n-Firefighting</description>
+		<description>Originally designed by Ubrikkian Steamworks as a competitor to the Kellenech Sentinel droid, the original Devastator prototype was recieved with little interest from the Republic military, deemed too complicated for widespread field use and too dangerous for the private market. This significantly stripped-down production model was eventually approved for sale, and found many buyers in Outer Rim militias and private security forces as a cheap battle droid, but few of the original prototypes remain.\n\nBy default, this droid is capable of the following work types:\n\n-Combat\n-Hauling\n-Firefighting</description>
 		<alienRace>
 			<graphicPaths>
                 <body>
@@ -296,6 +296,8 @@
 					<li>Tailoring</li>
 					<li>Warden</li>
 					<li MayRequire="Orion.Hospitality">Diplomat</li>
+					<li MayRequire="Adamas.Storefront">Storefront_Selling</li>
+					<li MayRequire="Orion.Gastronomy">Gastronomy_Waiting</li>
 					<li>Research</li>
 				</forbiddenWorkTypes>
             </li>
@@ -373,7 +375,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="guy762_DroidRace_DevWD">
 		<defName>guy762_DroidRace_DevAD</defName>
 		<label>Devastator-class Type II assassin droid</label>
-		<description>Loosely-based on schematics for the original Ubrikkian Steamworks prototype, this is an upgrade over the common "war droid" variant of the Devastator-class droid. This model has not been approved by the Republic for manufacture and does not "officially" exist; rather, the design was secretly sold to various interested underworld organizations, and is manufactured privately without any involvement from Ubrikkian.\n\nCompared to the "war droid" variant, this advanced model is faster, can handle significantly more system upgrades, and has the necessary mounts to equip proper Class II armor plating. However, most of the basic programmed labor functions normally required for use as a military war droid have been removed to clear space for enhanced combat capabilities.\n\nThis droid is capable of the following work types:\n\n-Combat\n-Hunting</description>
+		<description>Loosely-based on schematics for the original Ubrikkian Steamworks prototype, this is an upgrade over the common "war droid" variant of the Devastator-class droid. This model has not been approved by the Republic for manufacture and does not "officially" exist; rather, the design was secretly sold to various interested underworld organizations, and is manufactured privately without any involvement from Ubrikkian.\n\nCompared to the "war droid" variant, this advanced model is faster, can handle significantly more system upgrades, and has the necessary mounts to equip proper Class II armor plating. However, most of the basic programmed labor functions normally required for use as a military war droid have been removed to clear space for enhanced combat capabilities.\n\nBy default, this droid is capable of the following work types:\n\n-Combat\n-Hunting</description>
 		<alienRace>
             <raceRestriction>
 				<apparelList  Inherit="False">
@@ -520,6 +522,8 @@
 					<li>Doctor</li>
 					<li>ABF_WorkType_Artificial_Artificer</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Childcare</li>
+					<li MayRequire="Adamas.Storefront">Storefront_Selling</li>
+					<li MayRequire="Orion.Gastronomy">Gastronomy_Waiting</li>
 					<li>Cooking</li>
 					<li>Growing</li>
 					<li>PlantCutting</li>

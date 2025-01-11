@@ -78,7 +78,7 @@
 	<AlienRace.ThingDef_AlienRace Name="guy762_DroidRace_GE3PD" ParentName="guy762_KotORDroidBase">
 		<defName>guy762_DroidRace_GE3PD</defName>
 		<label>GE3-series protocol droid</label>
-		<description>The GE3-series protocol droid is one of Czerka Corporation's leading products, and can be found throughout the galaxy in a variety of different public service roles. Its simplistic design allows for many different programming options, and can serve as an interpreter, medical, or even a computer networking droid.\n\nThis droid is capable of the following work types:\n\n-Social\n-Medical\n-Cooking\n-Firefighting</description>
+		<description>The GE3-series protocol droid is one of Czerka Corporation's leading products, and can be found throughout the galaxy in a variety of different public service roles. Its simplistic design allows for many different programming options, and can serve as an interpreter, medical, or even a computer networking droid.\n\nBy default, this droid is capable of the following work types:\n\n-Social\n-Medical\n-Firefighting</description>
 		<alienRace>
 			<graphicPaths>
                 <body>
@@ -270,6 +270,8 @@
 				<inherentWorkTypes>
 					<li>Warden</li>
 					<li MayRequire="Orion.Hospitality">Diplomat</li>
+					<li MayRequire="Adamas.Storefront">Storefront_Selling</li>
+					<li MayRequire="Orion.Gastronomy">Gastronomy_Waiting</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Childcare</li>
 					<li>Firefighter</li>
 					<li>BasicWorker</li>
@@ -277,6 +279,7 @@
 				<forbiddenWorkTypes>
 					<li>Art</li>
 					<li>Mining</li>
+					<li MayRequire="Ogliss.TheWhiteCrayon.Quarry">QuarryMining</li>
 					<li>Growing</li>
 					<li>PlantCutting</li>
 					<li>Handling</li>
@@ -346,7 +349,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="guy762_DroidRace_GE3PD">
 		<defName>guy762_DroidRace_GE3LD</defName>
 		<label>GE3-series labor droid</label>
-		<description>This version of the popular GE3-series droid is designed for common labor, as opposed to human-cyborg relations. Marketed primarily to agri-world plantation owners, its enhanced servomotors allow for a greater range of full-body movement than the ordinarily stiff GE3 protocol droids are capable of, necessary for performing more physically demanding tasks like crop seeding and harvesting.\n\nThis droid is capable of the following work types:\n\n-Cleaning\n-Hauling\n-Firefighting\n-Plants\n-Animals\n-Cooking\n-Social</description>
+		<description>This version of the popular GE3-series droid is designed for common labor, as opposed to human-cyborg relations. Marketed primarily to agri-world plantation owners, its enhanced servomotors allow for a greater range of full-body movement than the ordinarily stiff GE3 protocol droids are capable of, necessary for performing more physically demanding tasks like crop seeding and harvesting.\n\nBy default, this droid is capable of the following work types:\n\n-Cleaning\n-Hauling\n-Firefighting\n-Plants</description>
 		<alienRace>
 			<generalSettings>
                 <alienPartGenerator>
@@ -439,6 +442,7 @@
 				<forbiddenWorkTypes>
 					<li>Art</li>
 					<li>Mining</li>
+					<li MayRequire="Ogliss.TheWhiteCrayon.Quarry">QuarryMining</li>
 					<li>Doctor</li>
 					<li>ABF_WorkType_Artificial_Artificer</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Childcare</li>

@@ -28,7 +28,7 @@
 	<AlienRace.ThingDef_AlienRace Name="guy762_DroidRace_ADMkI" ParentName="guy762_KotORDroidBase">
 		<defName>guy762_DroidRace_ADMkI</defName>
 		<label>Assault Droid Mark I</label>
-		<description>One of Revan's many war droid designs created during the Mandalorian Wars, this peculiar one-legged design only caught on after the wars ended, and was marketed by Czerka Arms as a powerful security/defense droid.\n\nThis droid is capable of the following work types:\n\n-Combat</description>
+		<description>One of Revan's many war droid designs created during the Mandalorian Wars, this peculiar one-legged design only caught on after the wars ended, and was marketed by Czerka Arms as a powerful security/defense droid.\n\nBy default, this droid is capable of the following work types:\n\n-Combat</description>
 		<alienRace>
 			<graphicPaths>
                 <body>
@@ -245,6 +245,8 @@
 					<li>Construction</li>
 					<li>Warden</li>
 					<li MayRequire="Orion.Hospitality">Diplomat</li>
+					<li MayRequire="Adamas.Storefront">Storefront_Selling</li>
+					<li MayRequire="Orion.Gastronomy">Gastronomy_Waiting</li>
 					<li>Research</li>
 				</forbiddenWorkTypes>
             </li>
@@ -306,7 +308,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="guy762_DroidRace_ADMkI">
 		<defName>guy762_DroidRace_ADMkI_sf</defName>
 		<label>Star Forge Assault Droid</label>
-		<description>This variant of Czerka's Mark I Assault Droid was developed specifically for the defense of the recently-discovered Star Forge. Its base design was overhauled to the point where mass production would be completely unsustainable without the resources and capabilities of the Star Forge. Many among the Sith (including Revan themself) believed these droids were indestructible, but such theories were dismissed after Revan effortlessly cleaved through them before confronting Darth Malak at the end of the war.\n\nThis droid is capable of the following work types:\n\n-Combat</description>
+		<description>This variant of Czerka's Mark I Assault Droid was developed specifically for the defense of the recently-discovered Star Forge. Its base design was overhauled to the point where mass production would be completely unsustainable without the resources and capabilities of the Star Forge. Many among the Sith (including Revan themself) believed these droids were indestructible, but such theories were dismissed after Revan effortlessly cleaved through them before confronting Darth Malak at the end of the war.\n\nBy default, this droid is capable of the following work types:\n\n-Combat</description>
 		<alienRace>
             <raceRestriction>
 				<apparelList  Inherit="False">
@@ -474,6 +476,8 @@
 					<li>Construction</li>
 					<li>Warden</li>
 					<li MayRequire="Orion.Hospitality">Diplomat</li>
+					<li MayRequire="Adamas.Storefront">Storefront_Selling</li>
+					<li MayRequire="Orion.Gastronomy">Gastronomy_Waiting</li>
 					<li>Research</li>
 				</forbiddenWorkTypes>
             </li>

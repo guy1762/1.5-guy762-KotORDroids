@@ -40,7 +40,7 @@
 	<AlienRace.ThingDef_AlienRace Name="guy762_DroidRace_SentWD" ParentName="guy762_KotORDroidBase">
 		<defName>guy762_DroidRace_SentWD</defName>
 		<label>Sentinel-class war droid</label>
-		<description>Kellenech Technologies' Sentinel-class war droid is the most widespread combat droid in the galaxy - and for good reason. First deployed during the Onderon campaign during the Mandalorian Wars, these units were used to supplant the dwindling count of Republic soldiers during the battle of Dxun, and were proved to be equally as capable as any organic fighting force. Its durable, easy-to-maintain design made it an ideal choice for widespread adoption, and following the war these units were sold to virtually every security force across the galaxy.\n\nThis droid is capable of the following work types:\n\n-Combat\n-Hunting\n-Hauling\n-Firefighting</description>
+		<description>Kellenech Technologies' Sentinel-class war droid is the most widespread combat droid in the galaxy - and for good reason. First deployed during the Onderon campaign during the Mandalorian Wars, these units were used to supplant the dwindling count of Republic soldiers during the battle of Dxun, and were proved to be equally as capable as any organic fighting force. Its durable, easy-to-maintain design made it an ideal choice for widespread adoption, and following the war these units were sold to virtually every security force across the galaxy.\n\nBy default, this droid is capable of the following work types:\n\n-Combat\n-Hunting\n-Hauling\n-Firefighting</description>
 		<alienRace>
 			<graphicPaths>
                 <body>

@@ -121,7 +121,7 @@
 	<AlienRace.ThingDef_AlienRace Name="guy762_DroidRace_HKseries" ParentName="guy762_KotORDroidBase">
 		<defName>guy762_DroidRace_HKseries</defName>
 		<label>HK-series protocol droid</label>
-		<description>This is a protocol droid of unknown origin. It shares many translation and communications capabilities with some Systech protocol units, though its design is reminiscent of early Czerka Arms combat droids. Its structure appears to be unusually sturdy for a droid of this class, though this unit seemingly has no memory pertaining to its creation.\n\nThis droid is capable of the following work types:\n\n-Combat\n-Hunting\n-Crafting\n-Constructing\n-Social\n-Intellectual\n-Firefighting</description>
+		<description>This is a protocol droid of unknown origin. It shares many translation and communications capabilities with some Systech protocol units, though its design is reminiscent of early Czerka Arms combat droids. Its structure appears to be unusually sturdy for a droid of this class, though this unit seemingly has no memory pertaining to its creation.\n\nBy default, this droid is capable of the following work types:\n\n-Combat\n-Hunting\n-Crafting\n-Constructing\n-Social\n-Intellectual\n-Firefighting</description>
 		<alienRace>
 			<graphicPaths>
                 <body>
@@ -709,7 +709,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="guy762_DroidRace_HKseries">
 		<defName>guy762_DroidRace_HK51series</defName>
 		<label>HK-51 series assassin droid</label>
-		<description>This advanced assassin droid has clearly been designed to mimic the appearance of the humble, harmless HK-50 protocol droid used by the Republic Navy. These units operate throughout the galactic underworld as independent bounty hunters. Their capabilities are poorly understood and they are considered extremely dangerous, and pose an existential threat to the Republic Navy, and more importantly, gentle peace-loving HK-50 units everywhere.\n\nThis droid is capable of the following work types:\n\n-Combat\n-Hunting\n-Crafting\n-Constructing\n-Social\n-Intellectual\n-Firefighting</description>
+		<description>This advanced assassin droid has clearly been designed to mimic the appearance of the humble, harmless HK-50 protocol droid used by the Republic Navy. These units operate throughout the galactic underworld as independent bounty hunters. Their capabilities are poorly understood and they are considered extremely dangerous, and pose an existential threat to the Republic Navy, and more importantly, gentle peace-loving HK-50 units everywhere.\n\nBy default, this droid is capable of the following work types:\n\n-Combat\n-Hunting\n-Crafting\n-Constructing\n-Social\n-Intellectual\n-Firefighting</description>
 		<alienRace>
             <generalSettings>
                 <alienPartGenerator>

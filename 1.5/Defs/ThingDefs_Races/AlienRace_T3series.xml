@@ -99,7 +99,7 @@
 	<AlienRace.ThingDef_AlienRace Name="guy762_DroidRace_T3series" ParentName="guy762_KotORDroidBase">
 		<defName>guy762_DroidRace_T3series</defName>
 		<label>T3-series utility droid</label>
-		<description>Combining the capabilities of both the 3C and IT utility droid lines, Duwani Mechanical Products' T3-series is a landmark in utility droid technology. Its capabilities are nearly limitless compared to most other droids, though some owners have reported erratic behavior on units that are not frequently memory-wiped. Sale of these units is limited and most are made to-order for high-value buyers, and as such the cost of these units - even used - rivals that of some military assault droids.\n\nThis droid is capable of the following work types:\n\n-Combat\n-Hauling\n-Crafting\n-Constructing\n-Intellectual\n-Firefighting</description>
+		<description>Combining the capabilities of both the 3C and IT utility droid lines, Duwani Mechanical Products' T3-series is a landmark in utility droid technology. Its capabilities are nearly limitless compared to most other droids, though some owners have reported erratic behavior on units that are not frequently memory-wiped. Sale of these units is limited and most are made to-order for high-value buyers, and as such the cost of these units - even used - rivals that of some military assault droids.\n\nBy default, this droid is capable of the following work types:\n\n-Combat\n-Hauling\n-Crafting\n-Constructing\n-Intellectual\n-Firefighting</description>
 		<alienRace>
 			<graphicPaths>
                 <body>
@@ -355,6 +355,8 @@
 					<li>Cleaning</li>
 					<li>Warden</li>
 					<li MayRequire="Orion.Hospitality">Diplomat</li>
+					<li MayRequire="Adamas.Storefront">Storefront_Selling</li>
+					<li MayRequire="Orion.Gastronomy">Gastronomy_Waiting</li>
 				</forbiddenWorkTypes>
             </li>
 			<li Class="ArtificialBeings.ABF_SynstructExtension">
@@ -393,7 +395,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="guy762_DroidRace_T3series">
 		<defName>guy762_DroidRace_3Cseries</defName>
 		<label>3C-series utility droid</label>
-		<description>Duwani's 3C line of utility droid is designed for more advanced repair work than cheaper competitor models are capable of. Equipped with a wide variety of tools for both micro and macro-scale repair work, these sophisticated droids excel in constrained environments where advantages of one advanced droid would be preferable to the upkeep of many basic droids, such as in deep-space mining claims and on naval warships.\n\nThis droid is capable of the following work types:\n\n-Construction\n-Crafting\n-Hauling\n-Firefighting\n-Combat</description>
+		<description>Duwani's 3C line of utility droid is designed for more advanced repair work than cheaper competitor models are capable of. Equipped with a wide variety of tools for both micro and macro-scale repair work, these sophisticated droids excel in constrained environments where advantages of one advanced droid would be preferable to the upkeep of many basic droids, such as in deep-space mining claims and on naval warships.\n\nBy default, this droid is capable of the following work types:\n\n-Construction\n-Crafting\n-Hauling\n-Firefighting\n-Combat</description>
 		<alienRace>
             <generalSettings>
                 <alienPartGenerator>
@@ -570,6 +572,8 @@
 					<li>Handling</li>
 					<li>Cooking</li>
 					<li MayRequire="Orion.Hospitality">Diplomat</li>
+					<li MayRequire="Adamas.Storefront">Storefront_Selling</li>
+					<li MayRequire="Orion.Gastronomy">Gastronomy_Waiting</li>
 				</forbiddenWorkTypes>
             </li>
 			<li Class="ArtificialBeings.ABF_SynstructExtension">
@@ -590,7 +594,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="guy762_DroidRace_T3series">
 		<defName>guy762_DroidRace_ITseries</defName>
 		<label>IT-series utility droid</label>
-		<description>Unlike other utility droid models made by Duwani Mechanical Products, the IT series is designed specifically for information processing in laboratory and computer mainframe settings. They are designed to interface with and manage many types of networking systems, and in the wrong hands, make for excellent agents in espionage roles.\n\nThis droid is capable of the following work types:\n\n-Intellectual\n-Firefighting\n-Combat</description>
+		<description>Unlike other utility droid models made by Duwani Mechanical Products, the IT series is designed specifically for information processing in laboratory and computer mainframe settings. They are designed to interface with and manage many types of networking systems, and in the wrong hands, make for excellent agents in espionage roles.\n\nBy default, this droid is capable of the following work types:\n\n-Intellectual\n-Firefighting\n-Combat</description>
 		<alienRace>
             <generalSettings>
                 <alienPartGenerator>
@@ -763,6 +767,8 @@
 					<li>Handling</li>
 					<li>Cooking</li>
 					<li MayRequire="Orion.Hospitality">Diplomat</li>
+					<li MayRequire="Adamas.Storefront">Storefront_Selling</li>
+					<li MayRequire="Orion.Gastronomy">Gastronomy_Waiting</li>
 				</forbiddenWorkTypes>
             </li>
 			<li Class="ArtificialBeings.ABF_SynstructExtension">

@@ -46,7 +46,7 @@
 	<AlienRace.ThingDef_AlienRace Name="guy762_DroidRace_GOTO" ParentName="guy762_KotORDroidBase">
 		<defName>guy762_DroidRace_GOTO</defName>
 		<label>G0-T0 superintelligence droid</label>
-		<description>Initially developed by Aratech Repulsorlift Company for aid in galactic reconstruction efforts following the Exar Kun war, full production of these advanced intelligence droids was delayed by almost 20 years by subsequent galaxy-wide conflicts with the Mandalorians and Revan's Sith. The computational power of these units is immensely powerful, and in the wrong hands could be devastating to the galaxy at large. Aratech manufactures these droids to-order for the Republic's infrastructure planning department, and each unit is carefully monitored by Republic Intelligence. Concerningly, a number of these units have already gone missing.\n\nThis droid is capable of the following work types:\n\n-Intellectual\n-Crafting\n-Firefighting\n-Combat</description>
+		<description>Initially developed by Aratech Repulsorlift Company for aid in galactic reconstruction efforts following the Exar Kun war, full production of these advanced intelligence droids was delayed by almost 20 years by subsequent galaxy-wide conflicts with the Mandalorians and Revan's Sith. The computational power of these units is immensely powerful, and in the wrong hands could be devastating to the galaxy at large. Aratech manufactures these droids to-order for the Republic's infrastructure planning department, and each unit is carefully monitored by Republic Intelligence. Concerningly, a number of these units have already gone missing.\n\nBy default, this droid is capable of the following work types:\n\n-Intellectual\n-Firefighting\n-Combat</description>
 		<alienRace>
 			<graphicPaths>
                 <body>
@@ -277,6 +277,7 @@
 					<li>PlantCutting</li>
 					<li>Handling</li>
 					<li>Mining</li>
+					<li MayRequire="Ogliss.TheWhiteCrayon.Quarry">QuarryMining</li>
 				</forbiddenWorkTypes>
             </li>
 			<li Class="ArtificialBeings.ABF_SynstructExtension">
