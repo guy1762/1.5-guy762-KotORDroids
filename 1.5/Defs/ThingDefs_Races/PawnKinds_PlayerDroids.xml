@@ -12,6 +12,7 @@
 		<modExtensions>
             <li Class="ArtificialBeings.ABF_ArtificialPawnKindExtension">
                 <pawnState>Reprogrammable</pawnState>
+                <caravanRole>Chattel</caravanRole>
             </li>
         </modExtensions>
     </PawnKindDef>
