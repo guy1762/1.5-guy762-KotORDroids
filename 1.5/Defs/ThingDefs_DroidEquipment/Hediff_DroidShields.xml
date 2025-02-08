@@ -10,19 +10,19 @@
     <defaultLabelColor>(0, 1.0, 1.0)</defaultLabelColor>
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
-      <li Class="AthenaFramework.HediffCompProperties_Shield">
-        <maxEnergy>50</maxEnergy>
+      <li Class="EBSGFramework.HediffCompProperties_Shield">
+        <maxEnergy>0.5</maxEnergy>
         <energyRechargeRate>0.001</energyRechargeRate>
-		<energyPerDamageModifier>0.35</energyPerDamageModifier>
+		<energyPerDamageModifier>0.0035</energyPerDamageModifier>
 		<resetDelay>3200</resetDelay>
-		<energyOnStart>1</energyOnStart>
+		<energyOnReset>1</energyOnReset>
 		<removeOnBreak>true</removeOnBreak>
 
 		<blocksRangedDamage>true</blocksRangedDamage>
 		<blocksExplosions>true</blocksExplosions>
 		<blocksMeleeDamage>true</blocksMeleeDamage>
 		
-        <whitelistedDamageDefs>
+        <blockedDamageDefs>
           <li>guy762_RangedDamage_energy</li>
 		  <li>guy762_BeamDamage_energy</li>
 		  <li>guy762_MeleeDamage_energy</li>
@@ -37,12 +37,12 @@
 		  <li>guy762_RangedDamage_electrical</li>
 		  <li>guy762_MeleeDamage_electrical</li>
 		  <li>guy762_BeamDamage_electrical</li>
-        </whitelistedDamageDefs>
-		<blacklistedDamageDefs>
+        </blockedDamageDefs>
+		<ignoredDamageDefs>
           <li>guy762_RangedDamage_disruptor</li>
 		  <li>guy762_BeamDamage_disruptor</li>
 		  <li>guy762_MeleeDamage_unstoppable</li>
-        </blacklistedDamageDefs>
+        </ignoredDamageDefs>
 		
 		<shatterOn>
 		  <li>EMP</li>
@@ -89,19 +89,19 @@
     <defaultLabelColor>(0, 1.0, 1.0)</defaultLabelColor>
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
-      <li Class="AthenaFramework.HediffCompProperties_Shield">
-        <maxEnergy>80</maxEnergy>
+      <li Class="EBSGFramework.HediffCompProperties_Shield">
+        <maxEnergy>0.8</maxEnergy>
         <energyRechargeRate>0.001</energyRechargeRate>
-		<energyPerDamageModifier>0.35</energyPerDamageModifier>
+		<energyPerDamageModifier>0.0035</energyPerDamageModifier>
 		<resetDelay>3200</resetDelay>
-		<energyOnStart>1</energyOnStart>
+		<energyOnReset>1</energyOnReset>
 		<removeOnBreak>true</removeOnBreak>
 
 		<blocksRangedDamage>true</blocksRangedDamage>
 		<blocksExplosions>true</blocksExplosions>
 		<blocksMeleeDamage>true</blocksMeleeDamage>
 		
-        <whitelistedDamageDefs>
+        <blockedDamageDefs>
           <li>guy762_RangedDamage_energy</li>
 		  <li>guy762_BeamDamage_energy</li>
 		  <li>guy762_MeleeDamage_energy</li>
@@ -116,12 +116,12 @@
 		  <li>guy762_RangedDamage_electrical</li>
 		  <li>guy762_MeleeDamage_electrical</li>
 		  <li>guy762_BeamDamage_electrical</li>
-        </whitelistedDamageDefs>
-		<blacklistedDamageDefs>
+        </blockedDamageDefs>
+		<ignoredDamageDefs>
           <li>guy762_RangedDamage_disruptor</li>
 		  <li>guy762_BeamDamage_disruptor</li>
 		  <li>guy762_MeleeDamage_unstoppable</li>
-        </blacklistedDamageDefs>
+        </ignoredDamageDefs>
 		
 		<shatterOn>
 		  <li>EMP</li>
@@ -168,19 +168,19 @@
     <defaultLabelColor>(0, 1.0, 1.0)</defaultLabelColor>
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
-      <li Class="AthenaFramework.HediffCompProperties_Shield">
-        <maxEnergy>120</maxEnergy>
+      <li Class="EBSGFramework.HediffCompProperties_Shield">
+        <maxEnergy>1.2</maxEnergy>
         <energyRechargeRate>0.001</energyRechargeRate>
-		<energyPerDamageModifier>0.35</energyPerDamageModifier>
+		<energyPerDamageModifier>0.0035</energyPerDamageModifier>
 		<resetDelay>3200</resetDelay>
-		<energyOnStart>1</energyOnStart>
+		<energyOnReset>1</energyOnReset>
 		<removeOnBreak>true</removeOnBreak>
 
 		<blocksRangedDamage>true</blocksRangedDamage>
 		<blocksExplosions>true</blocksExplosions>
 		<blocksMeleeDamage>true</blocksMeleeDamage>
 		
-        <whitelistedDamageDefs>
+        <blockedDamageDefs>
           <li>guy762_RangedDamage_energy</li>
 		  <li>guy762_BeamDamage_energy</li>
 		  <li>guy762_MeleeDamage_energy</li>
@@ -195,12 +195,12 @@
 		  <li>guy762_RangedDamage_electrical</li>
 		  <li>guy762_MeleeDamage_electrical</li>
 		  <li>guy762_BeamDamage_electrical</li>
-        </whitelistedDamageDefs>
-		<blacklistedDamageDefs>
+        </blockedDamageDefs>
+		<ignoredDamageDefs>
           <li>guy762_RangedDamage_disruptor</li>
 		  <li>guy762_BeamDamage_disruptor</li>
 		  <li>guy762_MeleeDamage_unstoppable</li>
-        </blacklistedDamageDefs>
+        </ignoredDamageDefs>
 		
 		<shatterOn>
 		  <li>EMP</li>
@@ -269,19 +269,19 @@
     <defaultLabelColor>(1.0, 0, 0)</defaultLabelColor>
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
-      <li Class="AthenaFramework.HediffCompProperties_Shield">
-        <maxEnergy>40</maxEnergy>
+      <li Class="EBSGFramework.HediffCompProperties_Shield">
+        <maxEnergy>0.4</maxEnergy>
         <energyRechargeRate>0.001</energyRechargeRate>
-		<energyPerDamageModifier>0.35</energyPerDamageModifier>
+		<energyPerDamageModifier>0.0035</energyPerDamageModifier>
 		<resetDelay>3200</resetDelay>
-		<energyOnStart>1</energyOnStart>
+		<energyOnReset>1</energyOnReset>
 		<removeOnBreak>true</removeOnBreak>
 
 		<blocksRangedDamage>true</blocksRangedDamage>
 		<blocksExplosions>true</blocksExplosions>
 		<blocksMeleeDamage>true</blocksMeleeDamage>
 		
-        <whitelistedDamageDefs>
+        <blockedDamageDefs>
           <li>guy762_RangedDamage_energy</li>
 		  <li>guy762_BeamDamage_energy</li>
 		  <li>guy762_MeleeDamage_energy</li>
@@ -308,12 +308,12 @@
 		  <li>guy762_BeamDamage_radiation</li>
 		  
 		  <li>Frostbite</li>
-        </whitelistedDamageDefs>
-		<blacklistedDamageDefs>
+        </blockedDamageDefs>
+		<ignoredDamageDefs>
           <li>guy762_RangedDamage_disruptor</li>
 		  <li>guy762_BeamDamage_disruptor</li>
 		  <li>guy762_MeleeDamage_unstoppable</li>
-        </blacklistedDamageDefs>
+        </ignoredDamageDefs>
 		
 		<shatterOn>
 		  <li>EMP</li>
@@ -360,19 +360,19 @@
 		<defaultLabelColor>(1.0, 0, 0)</defaultLabelColor>
 		<hediffClass>HediffWithComps</hediffClass>
 		<comps>
-		  <li Class="AthenaFramework.HediffCompProperties_Shield">
-			<maxEnergy>70</maxEnergy>
+		  <li Class="EBSGFramework.HediffCompProperties_Shield">
+			<maxEnergy>0.7</maxEnergy>
 			<energyRechargeRate>0.001</energyRechargeRate>
-			<energyPerDamageModifier>0.35</energyPerDamageModifier>
+			<energyPerDamageModifier>0.0035</energyPerDamageModifier>
 			<resetDelay>3200</resetDelay>
-			<energyOnStart>1</energyOnStart>
+			<energyOnReset>1</energyOnReset>
 			<removeOnBreak>true</removeOnBreak>
 
 			<blocksRangedDamage>true</blocksRangedDamage>
 			<blocksExplosions>true</blocksExplosions>
 			<blocksMeleeDamage>true</blocksMeleeDamage>
 			
-			<whitelistedDamageDefs>
+			<blockedDamageDefs>
 			  <li>guy762_RangedDamage_energy</li>
 			  <li>guy762_BeamDamage_energy</li>
 			  <li>guy762_MeleeDamage_energy</li>
@@ -399,12 +399,12 @@
 			  <li>guy762_BeamDamage_radiation</li>
 			  
 			  <li>Frostbite</li>
-			</whitelistedDamageDefs>
-			<blacklistedDamageDefs>
+			</blockedDamageDefs>
+			<ignoredDamageDefs>
 			  <li>guy762_RangedDamage_disruptor</li>
 			  <li>guy762_BeamDamage_disruptor</li>
 			  <li>guy762_MeleeDamage_unstoppable</li>
-			</blacklistedDamageDefs>
+			</ignoredDamageDefs>
 			
 			<shatterOn>
 			  <li>EMP</li>
@@ -483,19 +483,19 @@
 			  <muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>
 		  </li>
-		  <li Class="AthenaFramework.HediffCompProperties_Shield">
-			<maxEnergy>70</maxEnergy>
-			<energyRechargeRate>0.75</energyRechargeRate>
-			<energyPerDamageModifier>1</energyPerDamageModifier>
+		  <li Class="EBSGFramework.HediffCompProperties_Shield">
+			<maxEnergy>0.7</maxEnergy>
+			<energyRechargeRate>0.45</energyRechargeRate>
+			<energyPerDamageModifier>0.01</energyPerDamageModifier>
 			<resetDelay>3200</resetDelay>
-			<energyOnStart>1</energyOnStart>
+			<energyOnReset>1</energyOnReset>
 			<removeOnBreak>true</removeOnBreak>
 
 			<blocksRangedDamage>true</blocksRangedDamage>
 			<blocksExplosions>true</blocksExplosions>
 			<blocksMeleeDamage>true</blocksMeleeDamage>
 			
-			<whitelistedDamageDefs>
+			<blockedDamageDefs>
 			  <li>guy762_RangedDamage_energy</li>
 			  <li>guy762_BeamDamage_energy</li>
 			  <li>guy762_MeleeDamage_energy</li>
@@ -506,12 +506,12 @@
 			  <li>guy762_GrenadeDamage_thermaldet</li>
 			  <li>Beam</li>
 			  <li>guy762_RangedDamage_concussion</li>
-			</whitelistedDamageDefs>
-			<blacklistedDamageDefs>
+			</blockedDamageDefs>
+			<ignoredDamageDefs>
 			  <li>guy762_RangedDamage_disruptor</li>
 			  <li>guy762_BeamDamage_disruptor</li>
 			  <li>guy762_MeleeDamage_unstoppable</li>
-			</blacklistedDamageDefs>
+			</ignoredDamageDefs>
 			
 			<shatterOn>
 			  <li>EMP</li>
@@ -574,19 +574,19 @@
 			  <muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>
 		  </li>
-		  <li Class="AthenaFramework.HediffCompProperties_Shield">
-			<maxEnergy>130</maxEnergy>
-			<energyRechargeRate>0.75</energyRechargeRate>
-			<energyPerDamageModifier>1</energyPerDamageModifier>
+		  <li Class="EBSGFramework.HediffCompProperties_Shield">
+			<maxEnergy>1.3</maxEnergy>
+			<energyRechargeRate>0.45</energyRechargeRate>
+			<energyPerDamageModifier>0.01</energyPerDamageModifier>
 			<resetDelay>3200</resetDelay>
-			<energyOnStart>1</energyOnStart>
+			<energyOnReset>1</energyOnReset>
 			<removeOnBreak>true</removeOnBreak>
 
 			<blocksRangedDamage>true</blocksRangedDamage>
 			<blocksExplosions>true</blocksExplosions>
 			<blocksMeleeDamage>true</blocksMeleeDamage>
 			
-			<whitelistedDamageDefs>
+			<blockedDamageDefs>
 			  <li>guy762_RangedDamage_energy</li>
 			  <li>guy762_BeamDamage_energy</li>
 			  <li>guy762_MeleeDamage_energy</li>
@@ -597,12 +597,12 @@
 			  <li>guy762_GrenadeDamage_thermaldet</li>
 			  <li>Beam</li>
 			  <li>guy762_RangedDamage_concussion</li>
-			</whitelistedDamageDefs>
-			<blacklistedDamageDefs>
+			</blockedDamageDefs>
+			<ignoredDamageDefs>
 			  <li>guy762_RangedDamage_disruptor</li>
 			  <li>guy762_BeamDamage_disruptor</li>
 			  <li>guy762_MeleeDamage_unstoppable</li>
-			</blacklistedDamageDefs>
+			</ignoredDamageDefs>
 			
 			<shatterOn>
 			  <li>EMP</li>
@@ -675,19 +675,19 @@
     <defaultLabelColor>(1.0, 0, 1.0)</defaultLabelColor>
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
-      <li Class="AthenaFramework.HediffCompProperties_Shield">
-        <maxEnergy>40</maxEnergy>
+      <li Class="EBSGFramework.HediffCompProperties_Shield">
+        <maxEnergy>0.4</maxEnergy>
         <energyRechargeRate>0.001</energyRechargeRate>
-		<energyPerDamageModifier>0.35</energyPerDamageModifier>
+		<energyPerDamageModifier>0.0035</energyPerDamageModifier>
 		<resetDelay>3200</resetDelay>
-		<energyOnStart>1</energyOnStart>
+		<energyOnReset>1</energyOnReset>
 		<removeOnBreak>true</removeOnBreak>
 
 		<blocksRangedDamage>true</blocksRangedDamage>
 		<blocksExplosions>true</blocksExplosions>
 		<blocksMeleeDamage>true</blocksMeleeDamage>
 		
-        <whitelistedDamageDefs>
+        <blockedDamageDefs>
           <li>Cut</li>
 		  <li>Crush</li>
 		  <li>Blunt</li>
@@ -705,12 +705,12 @@
 		  
 		  <li>Bomb</li>
 		  <li>guy762_GrenadeDamage_frag</li>
-        </whitelistedDamageDefs>
-		<blacklistedDamageDefs>
+        </blockedDamageDefs>
+		<ignoredDamageDefs>
 		  <li>guy762_RangedDamage_disruptor</li>
 		  <li>guy762_BeamDamage_disruptor</li>
           <li>guy762_MeleeDamage_unstoppable</li>
-        </blacklistedDamageDefs>
+        </ignoredDamageDefs>
 		
 		<shatterOn>
 		  <li>EMP</li>
@@ -763,19 +763,19 @@
     <defaultLabelColor>(0, 0, 1.0)</defaultLabelColor>
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
-      <li Class="AthenaFramework.HediffCompProperties_Shield">
-        <maxEnergy>140</maxEnergy>
+      <li Class="EBSGFramework.HediffCompProperties_Shield">
+        <maxEnergy>1.4</maxEnergy>
         <energyRechargeRate>0.001</energyRechargeRate>
-		<energyPerDamageModifier>0.35</energyPerDamageModifier>
+		<energyPerDamageModifier>0.0035</energyPerDamageModifier>
 		<resetDelay>3200</resetDelay>
-		<energyOnStart>1</energyOnStart>
+		<energyOnReset>1</energyOnReset>
 		<removeOnBreak>true</removeOnBreak>
 
 		<blocksRangedDamage>true</blocksRangedDamage>
 		<blocksExplosions>true</blocksExplosions>
 		<blocksMeleeDamage>true</blocksMeleeDamage>
 		
-        <whitelistedDamageDefs>
+        <blockedDamageDefs>
           <li>guy762_RangedDamage_energy</li>
 		  <li>guy762_BeamDamage_energy</li>
 		  <li>guy762_MeleeDamage_energy</li>
@@ -796,12 +796,12 @@
 		  <li>guy762_MeleeDamage_ion</li>
 		  <li>guy762_GrenadeDamage_ion</li>
 		  <li>EMP</li>
-        </whitelistedDamageDefs>
-		<blacklistedDamageDefs>
+        </blockedDamageDefs>
+		<ignoredDamageDefs>
           <li>guy762_RangedDamage_disruptor</li>
 		  <li>guy762_BeamDamage_disruptor</li>
 		  <li>guy762_MeleeDamage_unstoppable</li>
-        </blacklistedDamageDefs>
+        </ignoredDamageDefs>
 		
 		<shatterOn>
 		  <li>guy762_RangedDamage_sonic</li>

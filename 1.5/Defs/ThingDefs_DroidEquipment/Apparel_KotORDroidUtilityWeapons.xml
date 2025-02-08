@@ -53,7 +53,7 @@
 		<li>
 		  <label>laser cutter</label>
 		  <commandIcon>Items/droidweapon/droidweapon_lasercutter</commandIcon>
-		  <verbClass>AthenaFramework.Verb_ShootRunningBeam</verbClass>
+		  <verbClass>AthenaPort.Verb_ShootRunningBeam</verbClass>
 		  <hasStandardCommand>true</hasStandardCommand>
 		  <warmupTime>2</warmupTime>
 		  <range>5</range>
@@ -159,7 +159,7 @@
 		<li>
 		  <label>shock arm</label>
 		  <commandIcon>Items/droidweapon/droidweapon_shock</commandIcon>
-		  <verbClass>AthenaFramework.Verb_ShootRunningBeam</verbClass>
+		  <verbClass>AthenaPort.Verb_ShootRunningBeam</verbClass>
 		  <hasStandardCommand>true</hasStandardCommand>
 		  <warmupTime>1.5</warmupTime>
 		  <range>5</range>

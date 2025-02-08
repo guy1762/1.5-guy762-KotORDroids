@@ -55,7 +55,7 @@
 		<li>
 		  <label>mining laser</label>
 		  <commandIcon>Items/cannon/cannon_mininglaser</commandIcon>
-		  <verbClass>AthenaFramework.Verb_ShootRunningBeam</verbClass>
+		  <verbClass>AthenaPort.Verb_ShootRunningBeam</verbClass>
 		  <hasStandardCommand>true</hasStandardCommand>
 		  <warmupTime>2</warmupTime>
 		  <range>9</range>
@@ -911,24 +911,24 @@
 			<destroyOnEmpty>true</destroyOnEmpty>
 		  </li>
 	</comps>
-	<modExtensions>
-		<li Class="AthenaFramework.DamageModifierExtension">
-			  <outgoingModifiers>
-				<li>
-				  <fleshTypes>
-					<li>Mechanoid</li>
-				  </fleshTypes>
-				  <modifier>2</modifier>
-				</li>
-				<li>
-				  <fleshTypes>
-					<li>ABF_FleshType_Synstruct_Base</li>
-				  </fleshTypes>
-				  <modifier>2</modifier>
-				</li>
-			  </outgoingModifiers>
-			</li>
-	</modExtensions>
+	<!-- <modExtensions> -->
+		<!-- <li Class="AthenaFramework.DamageModifierExtension"> -->
+			  <!-- <outgoingModifiers> -->
+				<!-- <li> -->
+				  <!-- <fleshTypes> -->
+					<!-- <li>Mechanoid</li> -->
+				  <!-- </fleshTypes> -->
+				  <!-- <modifier>2</modifier> -->
+				<!-- </li> -->
+				<!-- <li> -->
+				  <!-- <fleshTypes> -->
+					<!-- <li>ABF_FleshType_Synstruct_Base</li> -->
+				  <!-- </fleshTypes> -->
+				  <!-- <modifier>2</modifier> -->
+				<!-- </li> -->
+			  <!-- </outgoingModifiers> -->
+			<!-- </li> -->
+	<!-- </modExtensions> -->
   </ThingDef>
   
   
@@ -967,7 +967,7 @@
 		<li>
 		  <label>disruptor beam</label>
 		  <commandIcon>Items/cannon/ordcannon_disruptor</commandIcon>
-		  <verbClass>AthenaFramework.Verb_ShootRunningBeam</verbClass>
+		  <verbClass>AthenaPort.Verb_ShootRunningBeam</verbClass>
 		  <hasStandardCommand>true</hasStandardCommand>
 		  <warmupTime>6</warmupTime>
 		  <range>25</range>

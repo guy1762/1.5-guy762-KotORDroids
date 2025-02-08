@@ -294,7 +294,7 @@
 	<equippedStatOffsets>
 		<ResearchSpeed>0.5</ResearchSpeed>
 		<GlobalLearningFactor>0.2</GlobalLearningFactor>
-		<Athena_SkillLoss>-0.2</Athena_SkillLoss>
+		<EBSG_SkillLossRate>-0.2</EBSG_SkillLossRate>
 		<StudyEfficiency MayRequire="Ludeon.RimWorld.Anomaly">0.2</StudyEfficiency>
 		<EntityStudyRate MayRequire="Ludeon.RimWorld.Anomaly">0.2</EntityStudyRate>
 	</equippedStatOffsets>
