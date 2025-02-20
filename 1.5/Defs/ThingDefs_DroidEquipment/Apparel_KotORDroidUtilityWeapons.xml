@@ -406,7 +406,10 @@
 			<hotKey>Misc4</hotKey>
 			<chargeNoun>Kolto sprays</chargeNoun>
 			<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
-			<destroyOnEmpty>true</destroyOnEmpty>
+			<!-- <destroyOnEmpty>true</destroyOnEmpty> -->
+				<destroyOnEmpty>false</destroyOnEmpty>
+				<ammoDef>KOTOR_kolto</ammoDef>
+				<ammoCountToRefill>6</ammoCountToRefill>
 		</li>
 	</comps>
   </ThingDef>
