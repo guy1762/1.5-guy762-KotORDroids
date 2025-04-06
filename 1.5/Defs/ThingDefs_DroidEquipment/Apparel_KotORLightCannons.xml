@@ -328,7 +328,7 @@
 			<range>28</range>
 			<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
 			<burstShotCount>18</burstShotCount>
-			<soundCast>kotorsound_pulse</soundCast>
+			<soundCast>kotorsound_SotEpulse</soundCast>
 			<soundCastTail>GunTail_Medium</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
 			<ai_IsWeapon>true</ai_IsWeapon>
