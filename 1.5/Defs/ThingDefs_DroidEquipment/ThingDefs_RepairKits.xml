@@ -22,7 +22,7 @@
     </comps>
   </HediffDef>
   
-  <ThingDef ParentName="DrugPillBase">
+  <ThingDef ParentName="guy762_DrugPillBase">
     <defName>guy762_repairkit</defName>
     <label>repair kit</label>
     <description>Included are the basic tools needed to repair a droid that has been damaged in combat. They can only be used by droids.</description>
@@ -112,7 +112,7 @@
     </comps>
   </HediffDef>
   
-  <ThingDef ParentName="DrugPillBase">
+  <ThingDef ParentName="guy762_DrugPillBase">
     <defName>guy762_repairkit_adv</defName>
     <label>advanced repair kit</label>
     <description>Included are an improved assortment of tools and parts needed to repair a droid that has been damaged in combat. They can only be used by droids.</description>
@@ -204,7 +204,7 @@
     </comps>
   </HediffDef>
   
-  <ThingDef ParentName="DrugPillBase">
+  <ThingDef ParentName="guy762_DrugPillBase">
     <defName>guy762_repairkit_con</defName>
     <label>construction kit</label>
     <description>Included are electrical regulators designed to isolate malfunctions and all the parts needed to repair a damaged droid. They can only be used by droids.</description>

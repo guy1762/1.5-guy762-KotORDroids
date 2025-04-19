@@ -87,14 +87,24 @@
 					<li MayRequire ="guy762.KotORWeapons">SWSaber_KotOR_sionsaber</li>
 					<li MayRequire ="guy762.KotORWeapons">SWSaber_KotOR_exilesaber</li>
 					
-					<li MayRequire ="lee.theforce.psycast">Force_Lightsaber_Custom</li>
-					<li MayRequire ="lee.theforce.psycast">Force_Lightsaber_Curved</li>
-					<li MayRequire ="lee.theforce.psycast">Force_Lightsaber_Shoto</li>
-					<li MayRequire ="lee.theforce.psycast">Force_Lightsaber_Dual</li>
-					<li MayRequire ="lee.theforce.psycast">Force_Darksaber</li>
-					<li MayRequire ="lee.theforce.psycast">Force_Ezra_BlasterLightsaber</li>
-					<li MayRequire ="lee.theforce.psycast">Modular_Lightsaber</li>
-					<!--li MayRequire ="lee.theforce.psycast">Magick_BladeOfTalzin</li-->
+					<!-- <li MayRequire ="lee.theforce.psycast">Force_Lightsaber_Custom</li> -->
+					<!-- <li MayRequire ="lee.theforce.psycast">Force_Lightsaber_Curved</li> -->
+					<!-- <li MayRequire ="lee.theforce.psycast">Force_Lightsaber_Shoto</li> -->
+					<!-- <li MayRequire ="lee.theforce.psycast">Force_Lightsaber_Dual</li> -->
+					<!-- <li MayRequire ="lee.theforce.psycast">Force_Darksaber</li> -->
+					<!-- <li MayRequire ="lee.theforce.psycast">Force_Ezra_BlasterLightsaber</li> -->
+					<!-- <li MayRequire ="lee.theforce.psycast">Modular_Lightsaber</li> -->
+					<li MayRequire ="lee.theforce.psycast">Force_BladeofTalzin</li>
+					<li MayRequire ="lee.theforce.psycast">Force_EnergyBow</li>
+					
+					<li MayRequire ="lee.theforce.lightsaber">Force_Lightsaber_Custom</li>
+					<li MayRequire ="lee.theforce.lightsaber">Force_Lightsaber_Dual</li>
+					<li MayRequire ="lee.theforce.lightsaber">Force_Lightsaber_Inquisitor</li>
+					<li MayRequire ="lee.theforce.lightsaber">Force_Lightsaber_Curved</li>
+					<li MayRequire ="lee.theforce.lightsaber">Force_Lightsaber_Shoto</li>
+					<li MayRequire ="lee.theforce.lightsaber">Force_Lightsaber_Crossguard</li>
+					<li MayRequire ="lee.theforce.lightsaber">Force_Darksaber</li>
+					<li MayRequire ="lee.theforce.lightsaber">Force_Broadsaber</li>
 				</blackWeaponList>
 				
 				<onlyGetRaceRestrictedTraits>true</onlyGetRaceRestrictedTraits>
@@ -118,7 +128,7 @@
 			<multiplier>0</multiplier>
 		  </li>
 		  <li>
-			<damageDef>guy762_RangedDamage_concussion</damageDef>
+			<damageDef>guy762_RangedDamage_KOstun</damageDef>
 			<multiplier>0</multiplier>
 		  </li>
 		  <li>

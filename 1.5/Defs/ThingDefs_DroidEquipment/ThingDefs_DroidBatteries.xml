@@ -44,7 +44,8 @@
 	<tradeTags>
       <li>guy762TT_DroidEquipment</li>
 	  <li>guy762TT_DroidConsumables</li>
-    </tradeTags>
+	  <li>guy762TT_AllItemsSellable</li>
+	</tradeTags>
 	<!--modExtensions>
 		<li Class="ArtificialBeings.ABF_NeedFulfillerExtension">
 			<li><key>ABF_Need_Synstruct_Coolant</key><value>0.5</value></li>
