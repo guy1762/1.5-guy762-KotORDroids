@@ -3,10 +3,11 @@
 	<modIconPath IgnoreIfNoMatchingField="True">UI/ModIcon_guy762_KotORDroids</modIconPath>
 	<packageId>guy762.KotORDroids</packageId>
 	<author>guy762</author>
-	<description>Adds droids from Star Wars: Knights of the Old Republic and Star Wars: Knights of the Old Republic II - The Sith Lords. DOWNLOAD THE FINAL 1.4 VERSION OF THIS MOD HERE: https://github.com/guy1762/SWKotOR-Project-1.4-Final-Build/</description>
+	<description>Adds droids from Star Wars: Knights of the Old Republic and Star Wars: Knights of the Old Republic II - The Sith Lords.</description>
 	<supportedVersions>
 		<!--li>1.4</li-->
 		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
 	<url>https://github.com/guy1762/1.5-guy762-KotORDroids</url>
 	
@@ -39,6 +40,7 @@
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Odyssey</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>smartkar.athenaframework</li>
 		<li>EBSG.Framework</li>
